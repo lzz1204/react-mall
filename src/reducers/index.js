@@ -1,7 +1,14 @@
 import { combineReducers } from "redux";
-import todos from "./todo";
+import login from "./login";
+import nav from "./nav";
+import signup from "./signup";
+import shoppingCart from "./shoppingCart";
+
 
 const rootReducer = combineReducers({
-	todos:todos
+	login:login,
+	username:nav,
+	signup:signup,
+	cart:shoppingCart,
 });
 export default rootReducer;

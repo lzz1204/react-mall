@@ -1,0 +1,13 @@
+.home .slick-slide {
+	position: relative;
+	text-align: center;
+}
+.home .slick-slide >h3{
+	width: 150px;
+	font-size: 30px;
+	position: absolute;
+	left:50%;
+	margin-left: -75px;
+	bottom: 40px;
+	color:#fff;
+}
